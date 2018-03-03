@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Thank you. Your request has been received. We will get back to you within 1 working day]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22063" started-at="2018-03-03T18:30:18Z" finished-at="2018-03-03T18:30:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22063" started-at="2018-03-03T18:30:18Z" finished-at="2018-03-03T18:30:40Z">
+      <class name="script.RequestDemo">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.RequestDemo@5e3a8624]" name="openApp" is-config="true" duration-ms="9990" started-at="2018-03-03T18:30:18Z" finished-at="2018-03-03T18:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testRequestForDemoPopUp()[pri:0, instance:script.RequestDemo@5e3a8624]" name="testRequestForDemoPopUp" duration-ms="12013" started-at="2018-03-03T18:30:28Z" finished-at="2018-03-03T18:30:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Thank you. Your request has been received. We will get back to you within 1 working day]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRequestForDemoPopUp -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.RequestDemo@5e3a8624]" name="closeApplication" is-config="true" duration-ms="6" started-at="2018-03-03T18:30:40Z" finished-at="2018-03-03T18:30:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRequestForDemoPopUp status=SUCCESS method=RequestDemo.testRequestForDemoPopUp()[pri:0, instance:script.RequestDemo@5e3a8624] output=Thank you. Your request has been received. We will get back to you within 1 working day]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.RequestDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
